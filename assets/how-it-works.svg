@@ -22,7 +22,7 @@
 
   <!-- One-time setup band -->
   <g transform="translate(60 150)">
-    <text x="0" y="0" font-size="15" font-weight="700" fill="#0B6466" letter-spacing="2">ONE-TIME SETUP</text>
+    <text x="0" y="0" font-size="15" font-weight="700" fill="#0B6466" letter-spacing="2">GETTING STARTED</text>
 
     <g transform="translate(0 18)">
       <rect width="470" height="96" rx="14" fill="#FFFFFF" stroke="#E4DED2"/>
@@ -46,9 +46,9 @@
       <rect width="470" height="96" rx="14" fill="#FFFFFF" stroke="#E4DED2"/>
       <circle cx="42" cy="48" r="22" fill="#0F8B8D"/>
       <text x="42" y="57" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
-      <text x="80" y="40" font-size="20" font-weight="700" fill="#14284B">Add your guests' cars</text>
-      <text x="80" y="66" font-size="15" fill="#5B5F6A">Photograph the plate. Plate, make, and color fill in.</text>
-      <text x="80" y="86" font-size="15" fill="#5B5F6A">Or type them. Done once per car.</text>
+      <text x="80" y="40" font-size="20" font-weight="700" fill="#14284B">Add guests' cars as they visit</text>
+      <text x="80" y="66" font-size="15" fill="#5B5F6A">Photograph the rear of the car and the plate, make, and</text>
+      <text x="80" y="86" font-size="15" fill="#5B5F6A">color fill in, or type them. Once per car, whenever you like.</text>
     </g>
   </g>
 
@@ -189,6 +189,6 @@
     </g>
   </g>
 
-  <text x="60" y="985" font-size="13" fill="#5B5F6A">Plate photos are sent to an AI reading service only to fill in the plate, make, and color; the photo is not stored there. GuestPermits is made by DigitalForge Pro LLC, Atlanta, and is not affiliated with the City of Atlanta or Passport Inc.</text>
+  <text x="60" y="985" font-size="13" fill="#5B5F6A">Car photos are sent to an AI reading service only to fill in the plate, make, and color; the photo is not stored there. GuestPermits is made by DigitalForge Pro LLC, Atlanta, and is not affiliated with the City of Atlanta or Passport Inc.</text>
   <text x="1540" y="985" font-size="13" fill="#0B6466" text-anchor="end" font-weight="700">guestpermits.com</text>
 </svg>
