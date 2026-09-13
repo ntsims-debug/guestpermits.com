@@ -53,3 +53,8 @@ footer.site .wrap { display: flex; flex-wrap: wrap; gap: 16px 28px; justify-cont
 .hero-art svg { width: 200px; height: 200px; border-radius: 44px; box-shadow: 0 18px 40px rgba(20, 40, 75, 0.18); }
 dl.faq dt { font-weight: 700; color: var(--navy); margin-top: 1.2em; }
 dl.faq dd { margin: 0.3em 0 0; }
+
+/* How-it-works diagram: wider than the text column on large screens, full width on phones. */
+.diagram { --dw: min(1100px, calc(100vw - 40px)); width: var(--dw); margin: 1em 0 1.6em calc(50% - var(--dw) / 2); }
+.diagram img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 14px; background: #fff; }
+.diagram figcaption { text-align: center; font-size: 0.9em; color: var(--muted, #5B5F6A); margin-top: 0.5em; }

@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" font-family="Segoe UI, Arial, Helvetica, sans-serif">
+  <!-- GuestPermits: how it works. Brand: teal #0F8B8D, teal dark #0B6466, orange #F26B1D, navy #14284B, cream #F6F1E7. -->
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#0B6466"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="1000" fill="#F6F1E7"/>
+
+  <!-- Title -->
+  <g transform="translate(60 44)">
+    <g transform="scale(0.4)">
+      <rect width="180" height="180" rx="40" fill="#0F8B8D"/>
+      <path fill="#FFFFFF" fill-rule="evenodd" d="M50 34h52a38 38 0 0 1 0 76H76v36H50zM76 58v28h26a14 14 0 0 0 0-28z"/>
+      <circle cx="136" cy="134" r="30" fill="#F26B1D" stroke="#0F8B8D" stroke-width="8"/>
+      <path d="M136 118v32M120 134h32" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+    </g>
+    <text x="92" y="34" font-size="40" font-weight="700" fill="#14284B">How GuestPermits works</text>
+    <text x="92" y="64" font-size="19" fill="#5B5F6A">Atlanta guest parking permits in 30 seconds, using your own City permit account</text>
+  </g>
+
+  <!-- One-time setup band -->
+  <g transform="translate(60 150)">
+    <text x="0" y="0" font-size="15" font-weight="700" fill="#0B6466" letter-spacing="2">ONE-TIME SETUP</text>
+
+    <g transform="translate(0 18)">
+      <rect width="470" height="96" rx="14" fill="#FFFFFF" stroke="#E4DED2"/>
+      <circle cx="42" cy="48" r="22" fill="#0F8B8D"/>
+      <text x="42" y="57" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+      <text x="80" y="40" font-size="20" font-weight="700" fill="#14284B">Enter your details once</text>
+      <text x="80" y="66" font-size="15" fill="#5B5F6A">Name, address, phone, email, zone, as on your permit.</text>
+      <text x="80" y="86" font-size="15" fill="#5B5F6A">Saved on this phone only.</text>
+    </g>
+
+    <g transform="translate(505 18)">
+      <rect width="470" height="96" rx="14" fill="#FFFFFF" stroke="#E4DED2"/>
+      <circle cx="42" cy="48" r="22" fill="#F26B1D"/>
+      <text x="42" y="57" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+      <text x="80" y="40" font-size="20" font-weight="700" fill="#14284B">Log in to the portal once</text>
+      <text x="80" y="66" font-size="15" fill="#5B5F6A">The City sends you a verification code; you type it and</text>
+      <text x="80" y="86" font-size="15" fill="#5B5F6A">your PIN. The app can remember the PIN securely.</text>
+    </g>
+
+    <g transform="translate(1010 18)">
+      <rect width="470" height="96" rx="14" fill="#FFFFFF" stroke="#E4DED2"/>
+      <circle cx="42" cy="48" r="22" fill="#0F8B8D"/>
+      <text x="42" y="57" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+      <text x="80" y="40" font-size="20" font-weight="700" fill="#14284B">Add your guests' cars</text>
+      <text x="80" y="66" font-size="15" fill="#5B5F6A">Photograph the plate. Plate, make, and color fill in.</text>
+      <text x="80" y="86" font-size="15" fill="#5B5F6A">Or type them. Done once per car.</text>
+    </g>
+  </g>
+
+  <!-- Every permit flow -->
+  <g transform="translate(60 312)">
+    <text x="0" y="0" font-size="15" font-weight="700" fill="#0B6466" letter-spacing="2">EVERY GUEST PERMIT AFTER THAT</text>
+
+    <!-- Column A: your phone -->
+    <g transform="translate(0 22)">
+      <rect width="420" height="420" rx="18" fill="#0F8B8D"/>
+      <text x="210" y="44" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">Your phone</text>
+      <text x="210" y="70" font-size="15" fill="#D8EFEF" text-anchor="middle">GuestPermits app</text>
+
+      <!-- phone screen mock -->
+      <rect x="90" y="92" width="240" height="300" rx="20" fill="#F6F1E7"/>
+      <rect x="90" y="92" width="240" height="40" rx="20" fill="#0B6466"/>
+      <rect x="90" y="112" width="240" height="20" fill="#0B6466"/>
+      <text x="210" y="119" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">New Guest Permit</text>
+
+      <rect x="104" y="146" width="212" height="56" rx="10" fill="#FFFFFF"/>
+      <text x="116" y="168" font-size="12" font-weight="700" fill="#14284B">Pick the car</text>
+      <rect x="116" y="176" width="70" height="18" rx="9" fill="#E4DED2"/>
+      <text x="151" y="189" font-size="10" fill="#14284B" text-anchor="middle">ABC 1234</text>
+      <rect x="192" y="176" width="70" height="18" rx="9" fill="#DCF0E3"/>
+      <text x="227" y="189" font-size="10" fill="#1B7F3B" text-anchor="middle">✓ Active</text>
+
+      <rect x="104" y="212" width="212" height="56" rx="10" fill="#FFFFFF"/>
+      <text x="116" y="234" font-size="12" font-weight="700" fill="#14284B">Pick the days</text>
+      <rect x="116" y="242" width="40" height="18" rx="9" fill="#0F8B8D"/>
+      <text x="136" y="255" font-size="10" fill="#FFFFFF" text-anchor="middle">1 day</text>
+      <rect x="162" y="242" width="44" height="18" rx="9" fill="#E4DED2"/>
+      <text x="184" y="255" font-size="10" fill="#14284B" text-anchor="middle">2 days</text>
+      <rect x="212" y="242" width="44" height="18" rx="9" fill="#E4DED2"/>
+      <text x="234" y="255" font-size="10" fill="#14284B" text-anchor="middle">3 days</text>
+
+      <rect x="104" y="282" width="212" height="44" rx="12" fill="#F26B1D"/>
+      <text x="210" y="309" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">Create Guest Permit</text>
+
+      <text x="210" y="360" font-size="12" fill="#5B5F6A" text-anchor="middle">Three taps. About 30 seconds.</text>
+    </g>
+
+    <!-- Arrow A -> B -->
+    <g transform="translate(420 232)">
+      <line x1="16" y1="0" x2="104" y2="0" stroke="#0B6466" stroke-width="4" marker-end="url(#arrow)"/>
+      <text x="60" y="-16" font-size="13" font-weight="700" fill="#0B6466" text-anchor="middle">opens the</text>
+      <text x="60" y="26" font-size="13" font-weight="700" fill="#0B6466" text-anchor="middle">real portal</text>
+    </g>
+
+    <!-- Column B: the portal inside the app -->
+    <g transform="translate(540 22)">
+      <rect width="420" height="420" rx="18" fill="#FFFFFF" stroke="#0F8B8D" stroke-width="3"/>
+      <text x="210" y="44" font-size="22" font-weight="700" fill="#14284B" text-anchor="middle">The City's permit portal</text>
+      <text x="210" y="70" font-size="15" fill="#5B5F6A" text-anchor="middle">shown inside the app, logged in as you</text>
+
+      <!-- browser-ish frame -->
+      <rect x="40" y="92" width="340" height="230" rx="10" fill="#F6F1E7" stroke="#E4DED2"/>
+      <rect x="40" y="92" width="340" height="28" rx="10" fill="#E4DED2"/>
+      <rect x="40" y="106" width="340" height="14" fill="#E4DED2"/>
+      <text x="56" y="111" font-size="11" fill="#5B5F6A">atlparkingpermits.rmcpay.com</text>
+
+      <text x="60" y="146" font-size="12" font-weight="700" fill="#14284B">Guest Parking Permit</text>
+      <g font-size="11" fill="#5B5F6A">
+        <text x="60" y="170">First name</text><rect x="170" y="159" width="190" height="16" rx="3" fill="#FFFFFF" stroke="#0F8B8D"/><text x="176" y="171" fill="#14284B">filled in</text>
+        <text x="60" y="194">Address</text><rect x="170" y="183" width="190" height="16" rx="3" fill="#FFFFFF" stroke="#0F8B8D"/><text x="176" y="195" fill="#14284B">filled in</text>
+        <text x="60" y="218">Plate, make, color</text><rect x="170" y="207" width="190" height="16" rx="3" fill="#FFFFFF" stroke="#0F8B8D"/><text x="176" y="219" fill="#14284B">filled in</text>
+        <text x="60" y="242">Start date</text><rect x="170" y="231" width="190" height="16" rx="3" fill="#FFFFFF" stroke="#0F8B8D"/><text x="176" y="243" fill="#14284B">checked</text>
+        <text x="60" y="266">Amount due</text><rect x="170" y="255" width="190" height="16" rx="3" fill="#FFFFFF" stroke="#0F8B8D"/><text x="176" y="267" fill="#1B7F3B" font-weight="700">$0.00, verified</text>
+      </g>
+      <rect x="150" y="286" width="100" height="22" rx="6" fill="#0F8B8D"/>
+      <text x="200" y="301" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">Submit</text>
+
+      <text x="210" y="352" font-size="14" fill="#14284B" text-anchor="middle">The app fills in the same form you would type,</text>
+      <text x="210" y="372" font-size="14" fill="#14284B" text-anchor="middle">on your own account, and submits it.</text>
+      <text x="210" y="398" font-size="13" fill="#5B5F6A" text-anchor="middle">Same fields. Same account. Same permit.</text>
+    </g>
+
+    <!-- Arrow B -> C -->
+    <g transform="translate(960 232)">
+      <line x1="16" y1="0" x2="104" y2="0" stroke="#0B6466" stroke-width="4" marker-end="url(#arrow)"/>
+      <text x="60" y="-16" font-size="13" font-weight="700" fill="#0B6466" text-anchor="middle">the City</text>
+      <text x="60" y="26" font-size="13" font-weight="700" fill="#0B6466" text-anchor="middle">issues it</text>
+    </g>
+
+    <!-- Column C: City system -->
+    <g transform="translate(1080 22)">
+      <rect width="400" height="420" rx="18" fill="#14284B"/>
+      <text x="200" y="44" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">City of Atlanta</text>
+      <text x="200" y="70" font-size="15" fill="#C9D3E3" text-anchor="middle">permit system and enforcement</text>
+
+      <!-- permit card -->
+      <rect x="60" y="100" width="280" height="150" rx="14" fill="#FFFFFF"/>
+      <rect x="60" y="100" width="280" height="36" rx="14" fill="#0F8B8D"/>
+      <rect x="60" y="118" width="280" height="18" fill="#0F8B8D"/>
+      <text x="200" y="124" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">GUEST PARKING PERMIT</text>
+      <g font-size="13" fill="#14284B">
+        <text x="80" y="164">Plate</text><text x="320" y="164" text-anchor="end" font-weight="700">ABC 1234</text>
+        <text x="80" y="188">Zone</text><text x="320" y="188" text-anchor="end" font-weight="700">Midtown</text>
+        <text x="80" y="212">Valid</text><text x="320" y="212" text-anchor="end" font-weight="700">today until 11:59 pm</text>
+        <text x="80" y="236">Fee</text><text x="320" y="236" text-anchor="end" font-weight="700" fill="#1B7F3B">$0.00</text>
+      </g>
+
+      <text x="200" y="292" font-size="14" fill="#FFFFFF" text-anchor="middle">Issued and enforced exactly like a permit</text>
+      <text x="200" y="312" font-size="14" fill="#FFFFFF" text-anchor="middle">you created on the website yourself.</text>
+
+      <line x1="60" y1="336" x2="340" y2="336" stroke="#2E4470"/>
+      <text x="200" y="366" font-size="14" fill="#C9D3E3" text-anchor="middle">The permit then shows up in the app</text>
+      <text x="200" y="386" font-size="14" fill="#C9D3E3" text-anchor="middle">under Current Permits, and the app knows</text>
+      <text x="200" y="406" font-size="14" fill="#C9D3E3" text-anchor="middle">when the two-permit limit is reached.</text>
+    </g>
+  </g>
+
+  <!-- Privacy band -->
+  <g transform="translate(60 800)">
+    <rect width="1480" height="160" rx="18" fill="#FFFFFF" stroke="#E4DED2"/>
+    <text x="30" y="40" font-size="15" font-weight="700" fill="#0B6466" letter-spacing="2">WHERE YOUR INFORMATION LIVES</text>
+
+    <g transform="translate(30 62)">
+      <circle cx="10" cy="10" r="10" fill="#0F8B8D"/>
+      <path d="M5 10l3.5 3.5L15 7" stroke="#FFFFFF" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="30" y="15" font-size="16" fill="#14284B"><tspan font-weight="700">Stays on your phone:</tspan> your details, your guests' cars, your portal PIN, and your permit history.</text>
+    </g>
+    <g transform="translate(30 92)">
+      <circle cx="10" cy="10" r="10" fill="#0F8B8D"/>
+      <path d="M5 10l3.5 3.5L15 7" stroke="#FFFFFF" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="30" y="15" font-size="16" fill="#14284B"><tspan font-weight="700">Goes to the City's portal:</tspan> only what the portal itself asks for to log you in and issue</text>
+      <text x="30" y="37" font-size="16" fill="#14284B">the permit, the same as when you use the website.</text>
+    </g>
+
+    <g transform="translate(1000 62)">
+      <circle cx="10" cy="10" r="10" fill="#F26B1D"/>
+      <path d="M6 6l8 8M14 6l-8 8" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="30" y="15" font-size="16" fill="#14284B"><tspan font-weight="700">No GuestPermits account.</tspan> Nothing to sign up for.</text>
+    </g>
+    <g transform="translate(1000 92)">
+      <circle cx="10" cy="10" r="10" fill="#F26B1D"/>
+      <path d="M6 6l8 8M14 6l-8 8" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="30" y="15" font-size="16" fill="#14284B"><tspan font-weight="700">No GuestPermits server.</tspan> Nothing is sent to DigitalForge Pro.</text>
+    </g>
+  </g>
+
+  <text x="60" y="985" font-size="13" fill="#5B5F6A">Plate photos are sent to an AI reading service only to fill in the plate, make, and color; the photo is not stored there. GuestPermits is made by DigitalForge Pro LLC, Atlanta, and is not affiliated with the City of Atlanta or Passport Inc.</text>
+  <text x="1540" y="985" font-size="13" fill="#0B6466" text-anchor="end" font-weight="700">guestpermits.com</text>
+</svg>
