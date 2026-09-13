@@ -93,8 +93,8 @@
     <!-- Arrow A -> B -->
     <g transform="translate(420 232)">
       <line x1="16" y1="0" x2="104" y2="0" stroke="#0B6466" stroke-width="4" marker-end="url(#arrow)"/>
-      <text x="60" y="-16" font-size="13" font-weight="700" fill="#0B6466" text-anchor="middle">opens the</text>
-      <text x="60" y="26" font-size="13" font-weight="700" fill="#0B6466" text-anchor="middle">real portal</text>
+      <text x="60" y="-36" font-size="13" font-weight="700" fill="#0B6466" text-anchor="middle">opens the</text>
+      <text x="60" y="-18" font-size="13" font-weight="700" fill="#0B6466" text-anchor="middle">real portal</text>
     </g>
 
     <!-- Column B: the portal inside the app -->
@@ -128,8 +128,8 @@
     <!-- Arrow B -> C -->
     <g transform="translate(960 232)">
       <line x1="16" y1="0" x2="104" y2="0" stroke="#0B6466" stroke-width="4" marker-end="url(#arrow)"/>
-      <text x="60" y="-16" font-size="13" font-weight="700" fill="#0B6466" text-anchor="middle">the City</text>
-      <text x="60" y="26" font-size="13" font-weight="700" fill="#0B6466" text-anchor="middle">issues it</text>
+      <text x="60" y="-36" font-size="13" font-weight="700" fill="#0B6466" text-anchor="middle">the City</text>
+      <text x="60" y="-18" font-size="13" font-weight="700" fill="#0B6466" text-anchor="middle">issues it</text>
     </g>
 
     <!-- Column C: City system -->
