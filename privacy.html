@@ -23,7 +23,7 @@
 
 <main class="wrap">
   <h1>Privacy Policy</h1>
-  <p class="meta">Effective date: [SET ON PUBLICATION] · Publisher: DigitalForge Pro LLC, Atlanta, Georgia · Contact: <a href="mailto:support@digitalforgepro.ai">support@digitalforgepro.ai</a></p>
+  <p class="meta">Effective date: September 30, 2026 · Publisher: DigitalForge Pro LLC, Atlanta, Georgia · Contact: <a href="mailto:support@digitalforgepro.ai">support@digitalforgepro.ai</a></p>
 
   <h2>Summary</h2>
   <p>GuestPermits helps City of Atlanta residents create guest parking permits on the City's permit portal. Your details, your saved vehicles, and your permit history are stored on your phone and nowhere else. The app has no account system and no server that stores your data. The only information that leaves your phone is what you send to the City's portal to create a permit, and the vehicle photo you choose to have read automatically.</p>
@@ -41,7 +41,7 @@
   <h2>What leaves your phone</h2>
   <ul>
     <li><strong>The City's permit portal</strong> (<a href="https://atlparkingpermits.rmcpay.com" target="_blank" rel="noopener">atlparkingpermits.rmcpay.com</a>, operated by Passport Inc. on behalf of the City of Atlanta). When you create a permit, the app fills in the portal's form with your details and the vehicle's details and submits it, the same as if you typed it yourself. The portal's own privacy policy governs what it does with that information: <a href="https://www.passportinc.com/privacy-policy/">passportinc.com/privacy-policy</a>.</li>
-    <li><strong>Vehicle photo reading.</strong> When you take or choose a vehicle photo and ask the app to read it, the photo is sent to an image-recognition service to identify the plate, make, model, and color. The service used is Anthropic's Claude API. The photo is used only to produce that reading and is subject to Anthropic's policies: <a href="https://www.anthropic.com/legal/privacy">anthropic.com/legal/privacy</a>. The request goes through a DigitalForge Pro LLC relay that adds no identifying information and stores nothing. You can skip photo reading entirely and type the details instead.</li>
+    <li><strong>Vehicle photo reading.</strong> When you take or choose a vehicle photo and ask the app to read it, the photo is sent to an image-recognition service to identify the plate, make, model, and color. The service used is Anthropic's Claude API. The photo is used only to produce that reading and is subject to Anthropic's policies: <a href="https://www.anthropic.com/legal/privacy">anthropic.com/legal/privacy</a>. The request goes through a DigitalForge Pro LLC relay so that the app never holds a service key. The relay adds only a random per-install identifier, used to limit how many photos one phone can send per day, and keeps only that daily count. It does not keep the photo or the reading. You can skip photo reading entirely and type the details instead.</li>
   </ul>
   <p>Nothing else is sent anywhere. The app contains no advertising, no analytics, and no tracking.</p>
 
@@ -66,6 +66,16 @@
     <li>Remove the saved PIN by clearing it under Your Details.</li>
     <li>Delete the app to erase everything it stored.</li>
   </ul>
+
+  <h2 id="delete">Deleting your data</h2>
+  <p>Everything the app stores is on your phone, so deleting it is in your hands and takes effect immediately:</p>
+  <ul>
+    <li>To delete a vehicle or a permit record, open it in the app and choose delete. Press and hold a vehicle in the list to delete it.</li>
+    <li>To delete your details, edit them under Your Details, or delete the app.</li>
+    <li>To delete everything at once, delete the app from your phone. The database, the saved photos, the PIN in the secure keystore, and the portal login cookie are all removed with it. There is no copy on any server, so there is nothing to request from us.</li>
+    <li>Permits you already created live in your account on the City's portal, which the app does not control. Manage those at <a href="https://atlparkingpermits.rmcpay.com" target="_blank" rel="noopener">atlparkingpermits.rmcpay.com</a>.</li>
+  </ul>
+  <p>Questions: <a href="mailto:support@digitalforgepro.ai">support@digitalforgepro.ai</a>.</p>
 
   <h2>Children</h2>
   <p>The app is intended for adults who hold a City of Atlanta residential parking permit. It is not directed at children under 13 and does not knowingly collect information from them.</p>
