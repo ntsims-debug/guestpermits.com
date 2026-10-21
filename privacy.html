@@ -26,7 +26,7 @@
   <p class="meta">Effective date: September 30, 2026 · Publisher: DigitalForge Pro LLC, Atlanta, Georgia · Contact: <a href="mailto:support@digitalforgepro.ai">support@digitalforgepro.ai</a></p>
 
   <h2>Summary</h2>
-  <p>GuestPermits helps City of Atlanta residents create guest parking permits on the City's permit portal. Your details, your saved vehicles, and your permit history are stored on your phone and nowhere else. The app has no account system and no server that stores your data. The only information that leaves your phone is what you send to the City's portal to create a permit, and the vehicle photo you choose to have read automatically.</p>
+  <p>GuestPermits helps City of Atlanta residents create guest parking permits on the City's permit portal. Your details, your saved vehicles, and your permit history are stored on your phone and nowhere else. The app has no account system and no server that stores your data. The only information that leaves your phone is what you send to the City's portal to create a permit, the vehicle photo you choose to have read automatically, and a count of permits created (described below).</p>
 
   <h2>What the app stores on your phone</h2>
   <ul>
@@ -42,6 +42,7 @@
   <ul>
     <li><strong>The City's permit portal</strong> (<a href="https://atlparkingpermits.rmcpay.com" target="_blank" rel="noopener">atlparkingpermits.rmcpay.com</a>, operated by Passport Inc. on behalf of the City of Atlanta). When you create a permit, the app fills in the portal's form with your details and the vehicle's details and submits it, the same as if you typed it yourself. The portal's own privacy policy governs what it does with that information: <a href="https://www.passportinc.com/privacy-policy/">passportinc.com/privacy-policy</a>.</li>
     <li><strong>Vehicle photo reading.</strong> When you take or choose a vehicle photo and ask the app to read it, the photo is sent to an image-recognition service to identify the plate, make, model, and color. The service used is Anthropic's Claude API. The photo is used only to produce that reading and is subject to Anthropic's policies: <a href="https://www.anthropic.com/legal/privacy">anthropic.com/legal/privacy</a>. The request goes through a DigitalForge Pro LLC relay so that the app never holds a service key. The relay adds only a random per-install identifier, used to limit how many photos one phone can send per day, and keeps only that daily count. It does not keep the photo or the reading. You can skip photo reading entirely and type the details instead.</li>
+    <li><strong>Permit count.</strong> When the portal confirms a permit, the app tells the DigitalForge Pro LLC relay that one permit was created. The message carries the same random per-install identifier used for photo reading and nothing else: no plate, no name, no address, no dates, no account details. The relay keeps only running totals (overall, per day, and per install identifier) so we know how much the app is used. The identifier is random, is not linked to you, and is never combined with other data.</li>
   </ul>
   <p>Nothing else is sent anywhere. The app contains no advertising, no analytics, and no tracking.</p>
 
