@@ -1,0 +1,20 @@
+name: Site check
+
+on:
+  workflow_run:
+    workflows: ["pages build and deployment"]
+    types: [completed]
+  schedule:
+    - cron: "17 12 * * *"
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Let the Pages CDN catch up
+        if: github.event_name == 'workflow_run'
+        run: sleep 45
+      - name: Check pages, assets and CNAME
+        run: bash scripts/check-site.sh
