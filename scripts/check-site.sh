@@ -35,6 +35,8 @@ done
 # Crawler files: search engines read these, no page links to them.
 check "$BASE/robots.txt"
 check "$BASE/sitemap.xml"
+# Google Search Console ownership file; removing it un-verifies the site.
+check "$BASE/google7eaa1df0cea08431.html"
 
 if [ -f CNAME ] && grep -qx "guestpermits.com" CNAME; then
   echo "ok   CNAME present"

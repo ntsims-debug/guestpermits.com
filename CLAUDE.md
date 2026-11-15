@@ -5,6 +5,7 @@ This repo is the public website for the GuestPermits app: landing page, beta sig
 ## Never delete these files
 - `CNAME` (must contain exactly `guestpermits.com`). If it is missing from `main`, GitHub unlinks the domain and the whole site returns a GitHub 404.
 - `.nojekyll`, `favicon.png`, `assets/` (stylesheet, `how-it-works.svg`, `how-it-works.png`), `README.md`.
+- `google7eaa1df0cea08431.html` (Google Search Console ownership file; removing it un-verifies the site), `sitemap.xml`, `robots.txt`.
 Do not delete or rename any file unless the owner asked for that specific file.
 
 ## Before every commit
