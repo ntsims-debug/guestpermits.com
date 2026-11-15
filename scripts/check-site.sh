@@ -18,7 +18,7 @@ check() {
   fi
 }
 
-for page in "" beta.html support.html privacy.html; do
+for page in "" beta.html support.html privacy.html atlanta-guest-parking-permit.html; do
   check "$BASE/$page"
   html=$(curl -s -L --max-time 20 "$BASE/$page?cb=$(date +%s)")
   refs=$(printf '%s' "$html" \
@@ -31,6 +31,10 @@ for page in "" beta.html support.html privacy.html; do
     [ -n "$ref" ] && check "$BASE/$ref"
   done
 done
+
+# Crawler files: search engines read these, no page links to them.
+check "$BASE/robots.txt"
+check "$BASE/sitemap.xml"
 
 if [ -f CNAME ] && grep -qx "guestpermits.com" CNAME; then
   echo "ok   CNAME present"
